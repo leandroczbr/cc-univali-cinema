@@ -1,2 +1,22 @@
-# cc-univali-cinema
-Este projeto é um sistema simples de reserva de assentos de cinema em C, onde o usuário pode visualizar quais assentos estão disponíveis e escolher qual deseja reservar. O sistema atualiza o status de cada assento em tempo real e permite múltiplas reservas até que o usuário opte por sair.
+# 🎬 Sistema de Reserva de Assentos em C
+
+Este é um programa simples em linguagem C que simula um sistema de reserva de cadeiras de cinema. O sistema possui três fileiras (`A`, `B` e `C`), cada uma com 10 assentos numerados de 1 a 10.
+
+## 💡 Funcionalidades
+
+- Exibição do mapa de assentos (disponíveis e ocupados)
+- Escolha de assentos pelo usuário
+- Validação de assentos já ocupados ou fora do intervalo
+- Reservas consecutivas até o usuário decidir parar
+
+## 🧠 Como funciona
+
+- O programa usa três vetores (`fileiraA`, `fileiraB`, `fileiraC`) para representar o estado dos assentos.
+- A escolha do usuário é feita com uma letra (A, B ou C) e um número (1–10), por exemplo: `B5`.
+- Os assentos já ocupados são exibidos como `[XX]`.
+
+## ▶️ Como compilar e executar
+
+```bash
+gcc reserva_cinema.c -o reserva
+./reserva
