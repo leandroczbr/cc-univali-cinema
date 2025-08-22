@@ -2,13 +2,6 @@
 
 Este é um programa simples em linguagem C que simula um sistema de reserva de cadeiras de cinema. O sistema possui três fileiras (`A`, `B` e `C`), cada uma com 10 assentos numerados de 1 a 10.
 
-## 💡 Funcionalidades
-
-- Exibição do mapa de assentos (disponíveis e ocupados)
-- Escolha de assentos pelo usuário
-- Validação de assentos já ocupados ou fora do intervalo
-- Reservas consecutivas até o usuário decidir parar
-
 ## 🧠 Como funciona
 
 - O programa usa três vetores (`fileiraA`, `fileiraB`, `fileiraC`) para representar o estado dos assentos.
